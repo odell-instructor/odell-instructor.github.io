@@ -1,0 +1,100 @@
+body {
+    background-color: #343434;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+    overflow: hidden;
+    list-style-type: none;
+    float: right;
+    display: block;    
+    margin-top: 14px;
+    grid-area: nav;    
+    float: right;
+}
+
+.header {
+    float: left;
+}
+
+.title {
+    margin-top: 0;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    font-size: 16px;
+    padding: 16px 16px;
+    height: 40px;
+}
+
+.navbar a:hover, .navbar a.current {
+    color: #587BF5;    
+}
+
+
+
+.grid-container {
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.header,
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.banner {    
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/labs.jpeg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 643px;
+    width: 1807px;
+    background-position-y: center;
+    position: absolute;
+    margin-top: 60px;    
+}
+
+.banner_title{
+    top: 30%;
+    left: 50%;
+    font-size: 76px;
+    color: white;
+}
+
+.banner_button {
+    top: 60%;
+    left: 50%;
+    font-size: 19px;
+    background-color: #587BF5;
+    border-radius: 15px;
+}
+
+.banner_title, .banner_button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+.banner_button a {
+    overflow: hidden;
+    list-style-type: none;
+    display: block;  
+    text-decoration: none;
+    color: white;
+    padding: 16px 30px;
+}
+
+.banner_button:hover  a {    
+    border-radius: 15px;
+    background-color: white;
+    color: #587BF5;
+}
+
