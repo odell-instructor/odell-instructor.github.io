@@ -88,7 +88,7 @@ nav a {
 
 section {
     position: absolute;
-    margin-top: 520px;
+    margin-top: 500px;
     margin-right: 50px;
 }
 
@@ -102,4 +102,9 @@ section {
 
 .info {
     color: white;
+}
+
+.sub_header {
+    color: white;
+    margin: 0;
 }
