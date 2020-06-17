@@ -1,6 +1,9 @@
 body {
     background-color: #343434;
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
 .banner {    
@@ -15,57 +18,78 @@ body {
     
 }
 
-nav {
-    text-transform: uppercase;
-    overflow: hidden;
-    list-style-type: none;
-    float: right;
-    display: block;    
-    margin-top: 14px;
-    grid-area: nav;    
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 390px;
+}
+
+.flex-container {
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: right;
+    padding: 6px;
+    margin-right: 50px;
 }
 
 header {
-    float: left;
+    margin-left: 50px; 
+    margin-right: 50px; 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
 }
 
-.title {
-    margin-top: 0;
+header h1 {
+    flex-grow: 1;
 }
 
-/* Links inside the navbar */
+
 nav a {
     font-size: 16px;
     padding: 16px 16px;
-    height: 40px;
 }
 
 nav a:hover, nav a.current {
     color: #587BF5;    
 }
 
-main {
-    margin-left: 50px;
-    margin-right: 50px
-}
-
-header,
 nav a {
     text-decoration: none;
     color: white;
-    text-align: center;
 }
 
-.banner_button {
-    top: 18%;
-    left: 70%;
+nav {
+    text-transform: uppercase;
+    overflow: hidden;
+    list-style-type: none;
+    float: right;
+    display: block;    
+    padding: 10px;
+    text-align: center;    
+}
+.facts {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 46px;
+    width: 1100px;
+}
+.banner_button {    
     font-size: 19px;
     background-color: #587BF5;
     border-radius: 10px;
     width: 250px;
     height: 70px;
-    position: absolute;
     text-align: center;
+    align-self: center;
+    margin-left: 200px;
 }
 
 .button_front  {
@@ -78,33 +102,13 @@ nav a {
     line-height: 70px;
 }
 
-
-
 .banner_button:hover  a {    
     border-radius: 10px;
     background-color: white;
     color: #587BF5;
 }
 
-section {
-    position: absolute;
-    margin-top: 500px;
-    margin-right: 50px;
-}
-
-.facts {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: white;
-    font-size: 46px;
-    width: 1100px;
-}
-
-.info {
-    color: white;
-}
-
-.sub_header {
-    color: white;
-    margin: 0;
+.flex-part1 {
+    display: flex;
+    height: 150px;
 }
