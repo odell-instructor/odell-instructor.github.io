@@ -21,15 +21,81 @@ body {
 section {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 390px;
 }
 
 .flex-container {
     flex-direction: column;
+    margin-top: 390px;
 }
+
+
+
+.flex-container-2 {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: stretch;
+    align-content: space-around;
+    margin-top: 75px;
+}
+
+.flex-column-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.flex-row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    padding: 0;
+    height: 70px;
+}
+
+.flex-row-1 h2 {
+    margin: 0;
+}
+
+.flex-author {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.flex-author h5 {
+    padding-right: 50px;
+}
+
+.flex-column-2 h2 {
+    text-align: center;    
+}
+
+.flex-header-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-header-img header {
+    margin-left: 30px;
+}
+
+.flex-img-article{
+    max-height: 141px;
+    max-width: 251px;
+}
+
 
 footer {
     margin-top: 40px;
+   
 }
 
 footer p {
@@ -38,7 +104,7 @@ footer p {
     margin-right: 50px;
 }
 
-header {
+.flex-nav {
     margin-left: 50px; 
     margin-right: 50px; 
     display: flex; 
