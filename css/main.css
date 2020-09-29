@@ -173,7 +173,11 @@ body {
 .container-about-body {
     margin: 50px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "center center right";
+}
+
+.container-about-info {
+    grid-area: center;
 }
 
 .container-about-body p {
@@ -182,12 +186,17 @@ body {
     font-size: 21px;
 }
 
+.about-info {
+    margin-right: 50px;
+}
+
 .profile-img {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     background-color: #7E7F9A;
     justify-self: center;
+    grid-area: right;
 }
 
 .container-blog {
