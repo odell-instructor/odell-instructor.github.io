@@ -169,3 +169,23 @@ body {
     border-radius: 50%;
     border: 10px solid #7E7F9A;
 }
+
+.container-about-body {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.container-about-body p {
+    color: #2b4141;
+    margin-bottom: 30px;
+    font-size: 21px;
+}
+
+.profile-img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: #7E7F9A;
+    justify-self: center;
+}
