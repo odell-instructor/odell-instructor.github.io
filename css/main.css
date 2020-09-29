@@ -189,3 +189,65 @@ body {
     background-color: #7E7F9A;
     justify-self: center;
 }
+
+.container-blog {
+    display: grid;
+    grid-template-areas: "left center center right";
+}
+
+.left-empty {
+    grid-area: left;
+    width: 300px;
+}
+.side-nav {
+    grid-area: right;
+    width: 400px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.blog-article {
+    grid-area: center;
+}
+
+.article {
+    margin-bottom: 30px;
+}
+
+.blog-post, .blog-post2 {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.date {
+    margin-bottom: 15px;
+}
+
+.article p {
+    color: #2b4141;
+}
+
+.article h1 {
+    color: #65B891;
+    position: relative;
+}
+
+.side-nav h2 {
+    color: #65B891;
+    font-size: 42px;
+    text-align: center;
+}
+
+.side-nav li, .side-nav a {
+    color: #2b4141;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.side-nav a {
+    font-size: 21px;
+}
+
+.side-nav li {
+    margin: 20px 0px;
+}
